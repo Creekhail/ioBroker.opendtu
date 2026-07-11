@@ -1,14 +1,22 @@
 ![Logo](admin/opendtu.png)
 # ioBroker.opendtu
 
-[![NPM version](https://img.shields.io/npm/v/iobroker.opendtu.svg)](https://www.npmjs.com/package/iobroker.opendtu)
-[![Downloads](https://img.shields.io/npm/dm/iobroker.opendtu.svg)](https://www.npmjs.com/package/iobroker.opendtu)
-![Number of Installations](https://iobroker.live/badges/opendtu-installed.svg)
-![Current version in stable repository](https://iobroker.live/badges/opendtu-stable.svg)
+[![License](https://img.shields.io/github/license/Creekhail/ioBroker.opendtu)](LICENSE)
+[![Last commit](https://img.shields.io/github/last-commit/Creekhail/ioBroker.opendtu)](https://github.com/Creekhail/ioBroker.opendtu/commits/main)
+![Base](https://img.shields.io/badge/base-official%20v1.0.1-blue)
+![OpenDTU firmware](https://img.shields.io/badge/OpenDTU%20firmware-%3C%2024.2.12-orange)
 
-[![NPM](https://nodei.co/npm/iobroker.opendtu.png?downloads=true)](https://nodei.co/npm/iobroker.opendtu/)
-
-**Tests:** ![Test and Release](https://github.com/o0shojo0o/ioBroker.opendtu/workflows/Test%20and%20Release/badge.svg) [![CodeQL](https://github.com/o0shojo0o/ioBroker.opendtu/actions/workflows/codeql.yml/badge.svg)](https://github.com/o0shojo0o/ioBroker.opendtu/actions/workflows/codeql.yml)
+> ⚠️ **Fork notice — legacy-firmware variant.**
+> Standalone fork of [ioBroker.opendtu](https://github.com/iobroker-community-adapters/ioBroker.opendtu),
+> maintained by [@Creekhail](https://github.com/Creekhail), based on the official **v1.0.1**.
+>
+> **Why:** Since OpenDTU firmware **v24.2.12** the live API changed (inverters must be queried per
+> serial) and the official adapter **≥ 2.0.0** was rewritten for it. This fork keeps compatibility with
+> **older OpenDTU firmware (< 24.2.12)** for setups that deliberately stay on a stable, frozen firmware.
+> Adapter name stays `opendtu` (drop-in replacement).
+>
+> **Install:** `iobroker url https://github.com/Creekhail/ioBroker.opendtu#main`
+> Maintenance scope & upstream cherry-pick policy: see [`MODERNIZATION_PLAN.md`](MODERNIZATION_PLAN.md).
 
 ## opendtu adapter for ioBroker
 
