@@ -6,7 +6,13 @@
     "name": "Dennis Rathjen",
     "email": "dennis.rathjen@outlook.de"
   },
-  "homepage": "https://github.com/o0shojo0o/ioBroker.opendtu",
+  "contributors": [
+    {
+      "name": "Marcus Bortel",
+      "url": "https://github.com/Creekhail"
+    }
+  ],
+  "homepage": "https://github.com/Creekhail/ioBroker.opendtu",
   "license": "MIT",
   "keywords": [
     "OpenDTU",
@@ -14,7 +20,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/o0shojo0o/ioBroker.opendtu.git"
+    "url": "https://github.com/Creekhail/ioBroker.opendtu.git"
   },
   "engines": {
     "node": ">= 16"
@@ -70,7 +76,7 @@
     "release": "release-script"
   },
   "bugs": {
-    "url": "https://github.com/o0shojo0o/ioBroker.opendtu/issues"
+    "url": "https://github.com/Creekhail/ioBroker.opendtu/issues"
   },
   "readmeFilename": "README.md"
 }

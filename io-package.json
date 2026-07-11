@@ -122,7 +122,8 @@
       "uk": "Адаптер для проекту OpenDTU"
     },
     "authors": [
-      "Dennis Rathjen <dennis.rathjen@outlook.de>"
+      "Dennis Rathjen <dennis.rathjen@outlook.de>",
+      "Marcus Bortel (Creekhail)"
     ],
     "keywords": [
       "OpenDTU",
@@ -133,8 +134,8 @@
     "main": "main.js",
     "icon": "opendtu.png",
     "enabled": true,
-    "extIcon": "https://raw.githubusercontent.com/o0shojo0o/ioBroker.opendtu/main/admin/opendtu.png",
-    "readme": "https://github.com/o0shojo0o/ioBroker.opendtu/blob/main/README.md",
+    "extIcon": "https://raw.githubusercontent.com/Creekhail/ioBroker.opendtu/main/admin/opendtu.png",
+    "readme": "https://github.com/Creekhail/ioBroker.opendtu/blob/main/README.md",
     "loglevel": "info",
     "mode": "daemon",
     "type": "energy",
