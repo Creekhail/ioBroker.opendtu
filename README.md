@@ -14,9 +14,19 @@
 > serial) and the official adapter **≥ 2.0.0** was rewritten for it. This fork keeps compatibility with
 > **older OpenDTU firmware (< 24.2.12)** for setups that deliberately stay on a stable, frozen firmware.
 > Adapter name stays `opendtu` (drop-in replacement).
->
-> **Install:** `iobroker url https://github.com/Creekhail/ioBroker.opendtu#main`
-> Maintenance scope & upstream cherry-pick policy: see [`MODERNIZATION_PLAN.md`](MODERNIZATION_PLAN.md).
+
+## Is this for you?
+
+- ✅ **Use this fork** if your OpenDTU firmware is **< 24.2.12** and you want to stay on that stable, frozen firmware — the official adapter **≥ 2.0.0** was rewritten for the newer per-serial API ([#129](https://github.com/iobroker-community-adapters/ioBroker.opendtu/issues/129)) and no longer works with it. This fork continues the **1.x line**, preserves the old data structure and stable state IDs, and runs on **current js-controller / Node.js (≥ 20)**.
+- ❌ **Use the [official adapter](https://github.com/iobroker-community-adapters/ioBroker.opendtu)** if your firmware is **≥ 24.2.12** — then the 2.x/3.x line is the correct choice.
+
+**Install** (drop-in — the adapter name stays `opendtu`, so no state-ID migration is needed):
+
+```
+iobroker url https://github.com/Creekhail/ioBroker.opendtu#main
+```
+
+> ℹ️ Provided **as-is, best-effort** — a privately maintained fork for a specific legacy setup, not an officially listed ioBroker adapter, and with no support guarantee. Issues and PRs are welcome but handled as time allows.
 
 ## opendtu adapter for ioBroker
 
