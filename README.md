@@ -48,6 +48,12 @@ For more information on the data points, see their description or click [here](h
 	Placeholder for the next version (at the beginning of the line):
 	### **WORK IN PROGRESS**
 -->
+### 1.1.1 (2026-07-12)
+
+- (Creekhail) Adopted firmware-agnostic upstream tunings: metadata polling reduced to 60s; websocket heartbeat/reconnect relaxed to 30s/2s (lighter device load)
+- (Creekhail) Admin: added port range validation (1–65535)
+- (Creekhail) Live data (websocket push) and state IDs unchanged
+
 ### 1.1.0 (2026-07-12)
 
 - (Creekhail) Standalone legacy-firmware fork: keeps compatibility with older OpenDTU firmware (< 24.2.12); adapter name stays `opendtu` (drop-in replacement)
