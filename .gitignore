@@ -15,3 +15,6 @@ Thumbs.db
 # i18n intermediate files
 admin/i18n/flat.txt
 admin/i18n/*/flat.txt
+
+# Internal-only planning notes (not for public repo)
+MODERNIZATION_PLAN.md

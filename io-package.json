@@ -1,8 +1,12 @@
 {
   "common": {
     "name": "opendtu",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "news": {
+      "1.1.1": {
+        "en": "Adopted firmware-agnostic upstream tunings: metadata polling reduced to 60s and websocket heartbeat/reconnect intervals relaxed (30s/2s) for lighter device load; added port range validation in admin. Live data (websocket push) and state IDs unchanged.",
+        "de": "Firmware-agnostische Upstream-Tunings übernommen: Metadaten-Polling auf 60s reduziert, Websocket-Heartbeat/Reconnect entspannt (30s/2s) für geringere Gerätelast; Port-Bereichsvalidierung im Admin ergänzt. Live-Daten (Websocket-Push) und State-IDs unverändert."
+      },
       "1.1.0": {
         "en": "Standalone fork (Creekhail) for older OpenDTU firmware (< 24.2.12). Modernized dependencies (adapter-core, axios, ws) and dev tooling (eslint flat config + prettier, @iobroker/testing 5, TypeScript 5.9); requires Node.js >= 20. Adapter behavior and state IDs unchanged.",
         "de": "Eigenständiger Fork (Creekhail) für ältere OpenDTU-Firmware (< 24.2.12). Modernisierte Abhängigkeiten (adapter-core, axios, ws) und Dev-Tooling (eslint Flat-Config + Prettier, @iobroker/testing 5, TypeScript 5.9); benötigt Node.js >= 20. Adapter-Verhalten und State-IDs unverändert."

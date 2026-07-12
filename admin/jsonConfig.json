@@ -31,6 +31,8 @@
 		"webUIPort": {
 			"type": "number",
 			"label": "WebUi Port",
+			"min": 1,
+			"max": 65535,
 			"newLine": false
 		},
 		"password": {

@@ -51,7 +51,7 @@ class Opendtu extends utils.Adapter {
 
         // Schedule jobs to run at specified intervals using Cron-style syntax
         schedule.scheduleJob('rewriteYildTotal', '0 1 0 * * *', () => this.rewriteYildTotal());
-        schedule.scheduleJob('getDTUData', '*/10 * * * * *', () => this.getDTUData());
+        schedule.scheduleJob('getDTUData', '*/1 * * * *', () => this.getDTUData());
     }
 
     // This function gets called whenever there's a state change in the system.
