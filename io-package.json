@@ -1,8 +1,12 @@
 {
   "common": {
     "name": "opendtu",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "news": {
+      "1.1.0": {
+        "en": "Standalone fork (Creekhail) for older OpenDTU firmware (< 24.2.12). Modernized dependencies (adapter-core, axios, ws) and dev tooling (eslint flat config + prettier, @iobroker/testing 5, TypeScript 5.9); requires Node.js >= 20. Adapter behavior and state IDs unchanged.",
+        "de": "Eigenständiger Fork (Creekhail) für ältere OpenDTU-Firmware (< 24.2.12). Modernisierte Abhängigkeiten (adapter-core, axios, ws) und Dev-Tooling (eslint Flat-Config + Prettier, @iobroker/testing 5, TypeScript 5.9); benötigt Node.js >= 20. Adapter-Verhalten und State-IDs unverändert."
+      },
       "1.0.1": {
         "en": "fixed `power_control.current_limit_absolute\" has value \"-1\" less than min \"0\"`",
         "de": "`power_control.current_limit_absolute\" hat wert -1 kleiner als min 0",

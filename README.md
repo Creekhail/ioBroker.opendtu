@@ -48,6 +48,14 @@ For more information on the data points, see their description or click [here](h
 	Placeholder for the next version (at the beginning of the line):
 	### **WORK IN PROGRESS**
 -->
+### 1.1.0 (2026-07-12)
+
+- (Creekhail) Standalone legacy-firmware fork: keeps compatibility with older OpenDTU firmware (< 24.2.12); adapter name stays `opendtu` (drop-in replacement)
+- (Creekhail) Modernized runtime dependencies: @iobroker/adapter-core 3.4, axios 1.18, ws 8.21
+- (Creekhail) Modernized dev tooling: eslint flat config + @iobroker/eslint-config + prettier, @iobroker/testing 5, TypeScript 5.9, @tsconfig/node20
+- (Creekhail) CI on Node.js 20/22/24 (requires Node.js >= 20), codeql-action v3; removed stale-bot and dependabot auto-merge automation
+- (Creekhail) No functional changes — adapter behavior and state IDs unchanged
+
 ### 1.0.1 (2023-10-29)
 
 - (o0shojo0o) fixed `power_control.current_limit_absolute" has value "-1" less than min "0"`
